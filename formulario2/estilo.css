@@ -1,0 +1,141 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 1800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los íconos */
+i {
+    padding: 12px;
+        border-radius: 50%;
+        background: linear-gradient(90deg, #2ecc71 0%, #27ae60 50%);
+        color: #ffffff;
+        position: relative;
+        font-size: 16px;
+        margin: 0 auto;
+}
+
+/* Estilos para los campos de entrada del formulario */
+.input-container {
+    margin-bottom: 15px;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Estilos para el botón "Registrar Datos" del formulario */
+input[type="submit"] {
+    background: linear-gradient(90deg, #2ecc71 0%, #27ae60 50%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.2s; /* Transición suave del efecto de zoom */
+}
+
+input[type="submit"]:hover {
+    background: #a9b8a9;
+    transform: scale(1.1); /* Zoom al pasar el mouse */
+}
+
+/* Estilos para el fondo */
+.background {
+    position: absolute;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 75%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 3px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el título de la tabla */
+.titulo {
+    font-size: 15px;
+    margin-top: 20px;
+}
+/* Agrega estilos al botón "Exportar a Excel" */
+#exportButton {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Texto en color blanco */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero al pasar por encima */
+    transition: transform 0.2s; /* Transición suave del efecto de zoom */
+}
+
+#exportButton:hover {
+    background-color: #45a049; /* Cambio de color al pasar el mouse */
+    transform: scale(1.1); /* Zoom al pasar el mouse */
+}
+
+/* Agrega estilos al botón "Exportar a PDF" */
+#exportPdfButton {
+    background-color: rgb(211, 139, 22); /* Color de fondo verde */
+    color: white; /* Texto en color blanco */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero al pasar por encima */
+    transition: transform 0.2s; /* Transición suave del efecto de zoom */
+}
+
+#exportPdfButton:hover {
+    background-color: #dc993b; /* Cambio de color al pasar el mouse */
+    transform: scale(1.1); /* Zoom al pasar el mouse */
+}
+/* Estilos para tablas responsivas en dispositivos móviles */
+@media (max-width: 600px) {
+    .responsive-table {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .responsive-table th, .responsive-table td {
+        display: block;
+    }
+    .responsive-table th {
+        text-align: left;
+    }
+    .responsive-table tbody td {
+        text-align: right;
+        padding: 10px;
+    }
+}
